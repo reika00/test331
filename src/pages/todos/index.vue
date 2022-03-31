@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="d-flex justify-content-between mb-3">
-      <h2>To-Do List</h2>
+      <h2>test</h2>
       <button class="btn btn-primary" @click="moveToCreatePage">
         Create Todo
       </button>
