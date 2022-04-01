@@ -3,19 +3,17 @@
 </template>
 
 <script>
-import { useCount } from '@/composables/count';
+import { useCount } from "@/composables/count";
 
 export default {
   setup() {
     const { count } = useCount();
 
     return {
-      count
-    }
-  }
-}
+      count,
+    };
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
