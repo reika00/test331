@@ -18,7 +18,7 @@
             <button
               class="btn"
               type="button"
-              :class="todo.completed ? 'btn-success' : 'btn-danger'"
+              :class="todo.completed ? 'btn-success' : 'btn btn-primary'"
               @click="toggleTodoStatus"
             >
               {{ todo.completed ? "Completed" : "Incomplete" }}
