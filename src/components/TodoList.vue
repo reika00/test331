@@ -20,7 +20,7 @@
         </div>
         <div>
           <button
-            class="btn btn-outline-danger"
+            class="btn btn-secondary btn-lg"
             @click.stop="openModal(item.id)"
           >
             Delete

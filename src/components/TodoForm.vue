@@ -39,10 +39,14 @@
       </div>
     </div>
 
-    <button type="submit" class="btn btn-primary" :disabled="!todoUpdated">
+    <button
+      type="submit"
+      class="btn btn-outline-warning"
+      :disabled="!todoUpdated"
+    >
       {{ editing ? "Update" : "Create" }}
     </button>
-    <button class="btn btn-outline-dark ml-2" @click="moveToTodoListPage">
+    <button class="btn btn-outline-danger" @click="moveToTodoListPage">
       Cancel
     </button>
   </form>
