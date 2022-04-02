@@ -7,10 +7,18 @@
       Are you sure you want to delete this todo?
     </template>
     <template #footer>
-      <button type="button" class="btn btn-secondary" @click="onClose">
+      <button
+        type="button"
+        class="btn btn-primary btn-lg disabled"
+        @click="onClose"
+      >
         Close
       </button>
-      <button type="button" class="btn btn-danger" @click="onDelete">
+      <button
+        type="button"
+        class="btn btn-secondary btn-lg disabled"
+        @click="onDelete"
+      >
         Delete
       </button>
     </template>

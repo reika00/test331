@@ -19,7 +19,7 @@
           </span>
         </div>
         <div>
-          <button class="btn btn btn-success" @click.stop="openModal(item.id)">
+          <button class="btn btn-warning" @click.stop="openModal(item.id)">
             Delete
           </button>
         </div>
